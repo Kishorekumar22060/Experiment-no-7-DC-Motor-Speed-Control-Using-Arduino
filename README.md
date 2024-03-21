@@ -23,7 +23,6 @@ Project circuit schematic diagram is the one below.
 
 ![image](https://user-images.githubusercontent.com/36288975/167763051-b230c183-afc5-46f2-ba95-0f95e10dd6c9.png)
 FIGURE-01 H BRIDGE CIRUCIT INTERFACE 
-![image](https://github.com/Kishorekumar22060/Experiment-no-7-DC-Motor-Speed-Control-Using-Arduino/assets/141472136/234d48d8-f3e6-4f68-a76d-a3d6ddc6230b)
 
 The speed of the DC motor (both directions) is controlled with the 10k potentiometer which is connected to analog channel 0 (A0) and the direction of rotation is controlled with the push button which is connected to pin 8 of the Arduino UNO board. If the button is pressed the motor will change its direction directly.
 The L293D driver has 2 VCCs: VCC1 is +5V and VCC2 is +12V (same as motor nominal voltage). Pins IN1 and IN2 are the control pins where:
@@ -64,6 +63,14 @@ void loop()
 
 ### OUTPUT
 
+### CIRCUIT DIAGRAM
+
+![image](https://github.com/Kishorekumar22060/Experiment-no-7-DC-Motor-Speed-Control-Using-Arduino/assets/141472136/212895fa-ab14-437e-839b-e7610ed94c2d)
+
+### SCHEMATIC VIEW
+![image](https://github.com/Kishorekumar22060/Experiment-no-7-DC-Motor-Speed-Control-Using-Arduino/assets/141472136/234d48d8-f3e6-4f68-a76d-a3d6ddc6230b)
+
+
 ### GRAPH AND TABULATION 
 
 ![image](https://github.com/Kishorekumar22060/Experiment-no-7-DC-Motor-Speed-Control-Using-Arduino/assets/141472136/8be218a2-be7c-41b0-94e0-5aa7fba3592e)
@@ -73,4 +80,5 @@ void loop()
 
 
 ### RESULTS AND DISCUSSION 
+Control of the speed and the direction of a DC motor using L293D driver ic( H- bridge) is successfully executed
 
