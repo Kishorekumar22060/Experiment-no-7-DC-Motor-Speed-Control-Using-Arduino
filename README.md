@@ -1,10 +1,8 @@
-###  DATE: 21/03/2024
-
-###  NAME: KISHORE KUMAR U
-###  ROLL NO :212222233003
-###  DEPARTMENT:AIDS
-
 # Experiment-no-6-DC-Motor-Speed-Control-Using-Arduino
+## DATE :08-04-2024
+## NAME :KISHORE KUMAR U																			             
+## ROLLNUMBER :212222233003
+## DEPARTMENT :AIDS
 ### AIM : To control the speed and the direction of a DC motor using L293D driver ic( H- bridge)
 
 ### Components Required:
